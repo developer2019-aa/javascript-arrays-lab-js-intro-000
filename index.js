@@ -29,3 +29,9 @@ function prependKitten(name) {
   newArr.unshift(name);
   return newArr;
 }
+
+function removeLastKitten(name) {
+  let newArr = kittens.slice();
+  newArr.pop();
+  return newArr;
+}
